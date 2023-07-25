@@ -1,8 +1,462 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+.cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-dark1 {
+    background-color: #293132; }
+    .cmTheme-dark1 .cmSong {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.65em;
+      padding: 10px;
+      white-space: pre-wrap;
+      color: #f4f4f4; }
+      .cmTheme-dark1 .cmSong p {
+        margin: 0; }
+    .cmTheme-dark1 .cmSectionLabel {
+      color: #67d3ff;
+      font-weight: bold; }
+    .cmTheme-dark1 .cmSectionMultiplier {
+      color: #ed7bff; }
+    .cmTheme-dark1 .cmTimeSignature {
+      color: #a7ff7b;
+      font-weight: bold; }
+    .cmTheme-dark1 .cmKeyDeclaration {
+      color: #a7ff7b;
+      font-weight: bold; }
+    .cmTheme-dark1 .cmChordLine {
+      color: #fabf2b; }
+    .cmTheme-dark1 .cmBarSeparator {
+      opacity: 0.5; }
+    .cmTheme-dark1 .cmChordDuration {
+      opacity: 0.7; }
+    .cmTheme-dark1 .cmSubBeatGroupOpener,
+    .cmTheme-dark1 .cmSubBeatGroupCloser {
+      opacity: 0.8;
+      font-weight: bold; }
+    .cmTheme-dark1 .cmChordLine-romanNumeral,
+    .cmTheme-dark1 .cmRomanNumeral {
+      color: #fabf2b; }
+    .cmTheme-dark1 .cmRomanNumeral-diatonic {
+      font-weight: bold;
+      color: #303846;
+      background-color: #fabf2b; }
+    .cmTheme-dark1 .cmRomanNumeral-borrowed {
+      color: #303846;
+      background-color: rgba(250, 191, 43, 0.7); }
+    .cmTheme-dark1 .cmRomanNumeral-unknown {
+      opacity: 0.8; }
+  
+  .cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-dark2 {
+    background-color: #282a36; }
+    .cmTheme-dark2 .cmSong {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.65em;
+      padding: 10px;
+      white-space: pre-wrap;
+      color: #f8f8f2; }
+      .cmTheme-dark2 .cmSong p {
+        margin: 0; }
+    .cmTheme-dark2 .cmSectionLabel {
+      color: #ffb86c;
+      font-weight: bold; }
+    .cmTheme-dark2 .cmSectionMultiplier {
+      color: #f1fa8c; }
+    .cmTheme-dark2 .cmTimeSignature {
+      color: #f1fa8c;
+      font-weight: bold; }
+    .cmTheme-dark2 .cmKeyDeclaration {
+      color: #f1fa8c;
+      font-weight: bold; }
+    .cmTheme-dark2 .cmChordLine {
+      color: #8be9fd; }
+    .cmTheme-dark2 .cmBarSeparator {
+      opacity: 0.5; }
+    .cmTheme-dark2 .cmChordDuration {
+      opacity: 0.7; }
+    .cmTheme-dark2 .cmSubBeatGroupOpener,
+    .cmTheme-dark2 .cmSubBeatGroupCloser {
+      opacity: 0.8;
+      font-weight: bold; }
+    .cmTheme-dark2 .cmChordLine-romanNumeral,
+    .cmTheme-dark2 .cmRomanNumeral {
+      color: #8be9fd; }
+    .cmTheme-dark2 .cmRomanNumeral-diatonic {
+      font-weight: bold;
+      color: #303846;
+      background-color: #8be9fd; }
+    .cmTheme-dark2 .cmRomanNumeral-borrowed {
+      color: #303846;
+      background-color: rgba(139, 233, 253, 0.7); }
+    .cmTheme-dark2 .cmRomanNumeral-unknown {
+      opacity: 0.8; }
+  
+  .cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-dark3 {
+    background-color: #282a36; }
+    .cmTheme-dark3 .cmSong {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.65em;
+      padding: 10px;
+      white-space: pre-wrap;
+      color: #f8f8f2; }
+      .cmTheme-dark3 .cmSong p {
+        margin: 0; }
+    .cmTheme-dark3 .cmSectionLabel {
+      color: #ff5555;
+      font-weight: bold; }
+    .cmTheme-dark3 .cmSectionMultiplier {
+      color: #f1fa8c; }
+    .cmTheme-dark3 .cmTimeSignature {
+      color: #8be9fd;
+      font-weight: bold; }
+    .cmTheme-dark3 .cmKeyDeclaration {
+      color: #8be9fd;
+      font-weight: bold; }
+    .cmTheme-dark3 .cmChordLine {
+      color: #50fa7b; }
+    .cmTheme-dark3 .cmBarSeparator {
+      opacity: 0.5; }
+    .cmTheme-dark3 .cmChordDuration {
+      opacity: 0.7; }
+    .cmTheme-dark3 .cmSubBeatGroupOpener,
+    .cmTheme-dark3 .cmSubBeatGroupCloser {
+      opacity: 0.8;
+      font-weight: bold; }
+    .cmTheme-dark3 .cmChordLine-romanNumeral,
+    .cmTheme-dark3 .cmRomanNumeral {
+      color: #50fa7b; }
+    .cmTheme-dark3 .cmRomanNumeral-diatonic {
+      font-weight: bold;
+      color: #303846;
+      background-color: #50fa7b; }
+    .cmTheme-dark3 .cmRomanNumeral-borrowed {
+      color: #303846;
+      background-color: rgba(80, 250, 123, 0.7); }
+    .cmTheme-dark3 .cmRomanNumeral-unknown {
+      opacity: 0.8; }
+  
+  .cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-text .cmSong {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.65em;
+    padding: 10px;
+    white-space: pre-wrap;
+    color: #333; }
+    .cmTheme-text .cmSong p {
+      margin: 0; }
+  
+  .cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-print {
+    background-color: white; }
+    .cmTheme-print .cmSong {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.65em;
+      padding: 10px;
+      white-space: pre-wrap;
+      color: #333;
+      font-size: 12px; }
+      .cmTheme-print .cmSong p {
+        margin: 0; }
+    .cmTheme-print .cmSectionLabel {
+      font-weight: bold;
+      text-decoration: underline; }
+    .cmTheme-print .cmSectionMultiplier {
+      font-weight: normal;
+      text-decoration: unset; }
+    .cmTheme-print .cmTimeSignature {
+      font-weight: bold; }
+    .cmTheme-print .cmKeyDeclaration {
+      font-weight: bold; }
+    .cmTheme-print .cmBarSeparator {
+      opacity: 0.5; }
+    .cmTheme-print .cmChordDuration {
+      opacity: 0.7; }
+    .cmTheme-print .cmSubBeatGroupOpener,
+    .cmTheme-print .cmSubBeatGroupCloser {
+      opacity: 0.8;
+      font-weight: bold; }
+  
+  .cmSong--fontSize-5 .cmLine {
+    font-size: 0.5em;
+    line-height: 1.15em; }
+  
+  .cmSong--fontSize-4 .cmLine {
+    font-size: 0.6em;
+    line-height: 1.25em; }
+  
+  .cmSong--fontSize-3 .cmLine {
+    font-size: 0.7em;
+    line-height: 1.35em; }
+  
+  .cmSong--fontSize-2 .cmLine {
+    font-size: 0.8em;
+    line-height: 1.45em; }
+  
+  .cmSong--fontSize-1 .cmLine {
+    font-size: 0.9em;
+    line-height: 1.55em; }
+  
+  .cmSong--fontSize1 .cmLine {
+    font-size: 1.1em;
+    line-height: 1.75em; }
+  
+  .cmSong--fontSize2 .cmLine {
+    font-size: 1.2em;
+    line-height: 1.85em; }
+  
+  .cmSong--fontSize3 .cmLine {
+    font-size: 1.3em;
+    line-height: 1.95em; }
+  
+  .cmSong--fontSize4 .cmLine {
+    font-size: 1.4em;
+    line-height: 2.05em; }
+  
+  .cmSong--fontSize5 .cmLine {
+    font-size: 1.5em;
+    line-height: 2.15em; }
+  
+  .cmTheme-print2 {
+    background-color: white; }
+    .cmTheme-print2 .cmSong {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 13px;
+      line-height: 1.65em;
+      padding: 10px;
+      white-space: pre-wrap;
+      color: #333;
+      font-size: 14px;
+      line-height: 1.4em;
+      font-family: 'Menlo', 'Courier New', Courier, monospace; }
+      .cmTheme-print2 .cmSong p {
+        margin: 0; }
+    .cmTheme-print2 .cmSection {
+      border: 1px solid black;
+      border-radius: 8px;
+      padding: 0.4em;
+      margin: 0.2em 0 0.2em 0;
+      break-inside: avoid; }
+    .cmTheme-print2 .cmSection-Chorus {
+      background-color: #ededed; }
+    .cmTheme-print2 .cmSectionLabel {
+      font-weight: bold;
+      font-size: 0.85em;
+      text-transform: uppercase; }
+    .cmTheme-print2 .cmSectionMultiplier {
+      text-decoration: unset;
+      font-size: 0.95em; }
+    .cmTheme-print2 .cmTimeSignature {
+      font-weight: bold; }
+    .cmTheme-print2 .cmKeyDeclaration {
+      font-weight: bold; }
+    .cmTheme-print2 .cmEmptyLine {
+      display: none; }
+    .cmTheme-print2 .cmChordLine {
+      font-weight: bolder; }
+    .cmTheme-print2 .cmBarSeparator {
+      opacity: 0.5; }
+    .cmTheme-print2 .cmChordDuration {
+      opacity: 0.7; }
+    .cmTheme-print2 .cmSubBeatGroupOpener,
+    .cmTheme-print2 .cmSubBeatGroupCloser {
+      opacity: 0.8;
+      font-weight: bold; }
+  
